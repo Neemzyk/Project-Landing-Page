@@ -1,0 +1,141 @@
+body{
+    margin:0px;
+            font-family: 'Roboto', sans-serif;
+    }
+    
+.main, .saying {
+    display: flex;
+    flex-direction: column; 
+}
+.top { padding: 30px 300px 50px 300px;
+    
+}
+.first-block{
+    display: flex;
+    justify-content: space-between;
+    gap: 75px;
+      
+}
+.first-header{
+    font-size: 50px;
+    font-weight: 900;
+}
+.first-block-text{
+    max-width: 600px;
+    max-height: 300px;
+}
+.first-clock-button {
+    padding: 5px 25px;
+    text-align: center;
+    margin: 18px 0 0 0;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 15px;
+    font-weight: 550;
+    border: 0;
+}
+.logo{
+    font-size: 20px;
+    font-weight: 800;
+}
+.link>a {
+    text-decoration: none; 
+    color: #F9FAF8;
+    margin-left: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+    gap: 100px;
+    
+}
+.top{
+    background-color: #1F2937;
+    color: #F9FAF8
+}
+
+.second-header{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+}
+.main-picture {
+    width: 500px;
+    height: 300px;
+}
+.info>img{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+p {
+    margin: 0;
+}
+.info {
+    width: 150px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+
+.saying {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-weight: lighter;
+    color:#1F2937;
+    font-size: 36px;
+    padding: 50px;
+}
+.call {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    border: 5px solid #F9FAF8;
+    border-radius: 15px;
+    margin: 75px 150px 75px 150px;
+    padding: 50px 100px 50px 100px;
+}
+.call-header{
+    font-weight: 900;
+    font-size: 30px;
+    margin:0 0 0 0;
+    }
+.subtext {
+    margin: 10px 0 0 0;
+    
+    font-size: 20px;
+}
+.call-button {
+    padding: 5px 25px;
+    text-align: center;
+    margin: 0;
+    border: 5px solid #F9FAF8;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 700;
+}
+.footer{ 
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 20px;
+    color: #F9FAF8;
+    font-size: 30px;
+}
